@@ -18,8 +18,7 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style2">
+					<header id="header" class="alt">
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -32,11 +31,9 @@
 							<li><a href="landing.html">Projetos</a></li>
 							<li><a href="generic.html">Biografia</a></li>
 						</ul>
-
 					</nav>
 
 				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
@@ -67,10 +64,26 @@
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
+									<a href="https://github.com/ClessonR/CloudWalk_Case" class="image">
+										<img src="images/payment_risk.jpg" alt="" data-position="top center" />
+									</a>
+									<div id="ds_exp" class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Chargeback Payment Detection</h3>
+											</header>
+											<p>Esse é o meu mais robusto e recente projeto, relacionado a um case de Chargeback.</p>
+											<ul class="actions">
+												<li><a href="https://github.com/ClessonR/CloudWalk_Case" class="button">Saiba Mais</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
 									<a href="https://share.streamlit.io/clessonr/raccoontestcase/main/TestCase_1/Dashboard/%F0%9F%93%9D_Dashboard.py" class="image">
 										<img src="images/dashboard.png" alt="" data-position="center center" />
 									</a>
-									<div id = "dashboard" class="content">
+									<div id="dashboard" class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>StreamLit Dashboard</h3>
@@ -83,26 +96,10 @@
 									</div>
 								</section>
 								<section>
-									<a href="https://github.com/ClessonR/Data_science" class="image">
-										<img src="images/ds.png" alt="" data-position="top center" />
-									</a>
-									<div id = "ds_exp"class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Data Science Experiments</h3>
-											</header>
-											<p>Sempre que aprendo uma nova ferramenta faço questão de por em prática, pois imagino ser a melhor forma de se fixar algo, aqui estão alguns dos meu experimentos com várias ferramentas.</p>
-											<ul class="actions">
-												<li><a href="https://github.com/ClessonR/DataScience" class="button">Saiba Mais</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
 									<a href="https://github.com/ClessonR/SQL_Project" class="image">
 										<img src="images/sql.png" alt="" data-position="25% 25%" />
 									</a>
-									<div id = "sql"class="content">
+									<div id="sql" class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>SQL Project</h3>
@@ -114,79 +111,59 @@
 										</div>
 									</div>
 								</section>
-								
 							</section>
-
-						
-
 					</div>
 
 				<!-- Contact -->
-				<section id="contact">
-					<div class="inner">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="primary" /></li>
-									<li><input type="reset" value="Clear" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split">
-							<section>
-								<div class="contact-method">
-									<span class="icon solid alt fa-envelope"></span>
-									<h3>Email</h3>
-									<a href="#">clesson_roberto@tutanota.com</a>
-								</div>
-							</section>
-							<section>
-								<div class="contact-method">
-									<span class="icon solid alt fa-phone"></span>
-									<h3>Phone</h3>
-									<span>+55 (81) 998021738</span>
-								</div>
-							</section>
-							<section>
-								<div class="contact-method">
-									<span class="icon solid alt fa-home"></span>
-									<h3>Address</h3>
-									<span>Recife, PE |
-									Brasil</span>
-								</div>
-							</section>
-						</section>
-					</div>
-				</section>
-
-				<!-- Footer -->
-					<footer id="footer">
+					<section id="contact">
 						<div class="inner">
-							<ul class="icons">
-								<li>
-										<a href="https://github.com/ClessonR" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="https://www.linkedin.com/in/clesson-r-869868171/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>											
-										<li><a href="https://www.facebook.com/bebettus2009/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="https://www.instagram.com/clesson_roberto/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-							</ul>
-
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">clesson_roberto@tutanota.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>+55 (81) 998021738</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>Recife, PE | Brasil</span>
+									</div>
+								</section>
+							</section>
 						</div>
-					</footer>
-
+					</section>
 			</div>
 
 		<!-- Scripts -->
@@ -197,6 +174,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
